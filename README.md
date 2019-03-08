@@ -15,8 +15,9 @@ Reference :
 
 [Step prepare Environment]
 I.  Setup Java Runtime
-II. Set PATH Java 
+II. Set PATH Java C:\Program Files (x86)\Java\jdk1.8.0_45
 III.Extract fop-2.3-bin to c:\fop
 IV. set PATH c:\fop
+V. Install Thai font  *.ttf to c:\windows\fonts 
 
 [Step create Script for create xml for Thai font]
