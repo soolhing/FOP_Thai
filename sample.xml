@@ -1,0 +1,54 @@
+<root>
+	<data>
+		<showtime>Date 06/07/2018  Time 14:12:33</showtime>
+		<logo path="D:\project\images\tbank_statement_logo.jpg"></logo>
+		<bankname id="demo_bank_statement_bankname" model="account.bank.statement">xxxx</bankname>
+		<bankaddr id="demo_bank_statement_bankaddress" model="account.bank.statement">
+			<line>xxxx กรุงเทพมหานคร 10330</line>
+			<line>xxxxx</line>
+		</bankaddr>
+		<actype id="demo_bank_statement_type" model="account.bank.statement">
+			<line>ใบแจ้งรายการบัญชีเงินฝากออมทรัพย์</line>
+			<line>SAVINGS ACCOUNT STATEMENT</line>
+		</actype>
+		<custaddr id="demo_bank_statement_customeraddress" model="account.bank.statement">
+			<line>นายxxxิชย์</line>
+			<line>999xxx ถ.สุขุมวิท</line>
+			<line>แขวงคลองเตย เขตคลองเตย กรุงเทพฯ</line>
+			<line>10250</line>
+		</custaddr>
+		<recordac id="demo_bank_statement_customeraccount" model="account.bank.statement">
+			<accountnumber en="Account Number" name="accountnumber" th="เลขที่บัญชี">เลขที่บัญชี : 7032002119</accountnumber>
+			<accountbranch en="Branch" name="accountbranch" th="สาขา">สาขา : มาบุญครอง</accountbranch>
+			<period en="period" name="Date" th="วันที่">วันที่ : 01/06/2018 – 30/06/2018</period>
+		</recordac>
+		<recordbalance id="demo_bank_statement_balance" model="account.bank.balance">
+			<balancedesc name="debitcredit">(BALANCE BROUGHT FORWARD)</balancedesc>
+			<balanceamount name="description">409,939.47</balanceamount>
+		</recordbalance>
+		<recordheader id="demo_bank_statement_header" model="account.bank.statement">
+			<date>Date</date>
+			<time>Time</time>
+			<description>Description</description>
+			<chqno>Chq No</chqno>
+			<branch>Branch</branch>
+			<debit>Withdrawal</debit>
+			<credit>Deposit</credit>
+			<balance>Ledger Balance</balance>
+			<teller>Teller ID</teller>
+			<source>Transaciton Source</source>
+		</recordheader>
+		<record>
+			<date>01/09/2018</date>
+			<time>00:24:04</time>
+			<description>xxx</description>
+			<chqno></chqno>
+			<branch>998</branch>
+			<debit>470.00</debit>
+			<credit></credit>
+			<balance>409469.47</balance>
+			<teller>xxx</teller>
+			<source>xxx</source>
+		</record>
+	</data>
+</root>
