@@ -39,9 +39,13 @@ set FONT_DIR=C:\Windows\Fonts
 [Next Step Config fop at C:\fop\conf\fop.xconf]
 add following tag under fop/renderers/fonts/ 
 
-<font metrics-url="file:///C:/fop/font/THSarabun.xml" embed-url="file:///C:/Windows/Fonts/THSarabun.ttf" kerning=  "yes" >
-				<font-triplet name="THSarabun" style=  "normal" weight= "normal" />
+<font metrics-url="file:///C:/fop/font/THSarabun.xml" 
+ embed-url="file:///C:/Windows/Fonts/THSarabun.ttf" kerning=  "yes" >
+<font-triplet name="THSarabun" style=  "normal" weight= "normal" />
 </font>
 
+[Create PDF by Fop command]
+fop -c C:\fop\conf\fop.xconf -xml "D:\project\sample.xml" -xsl "D:\project\sample.xsl"
+-pdf "D:\project\sample.pdf"
 
         
