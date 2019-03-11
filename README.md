@@ -48,4 +48,6 @@ add following tag under fop/renderers/fonts/
 fop -c C:\fop\conf\fop.xconf -xml "D:\project\sample.xml" -xsl "D:\project\sample.xsl"
 -pdf "D:\project\sample.pdf"
 
-        
+[Create PDF by Java command]
+java -Xms512m  -Xmx1024m  -jar C:\fop\build\fop.jar -c "D:\fop\conf\fop.xconf" -xml "D:\project\sample.xml" -xsl "D:\project\sample.xsl" -pdf "D:\project\sample.pdf"
+
